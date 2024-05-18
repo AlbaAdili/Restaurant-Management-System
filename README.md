@@ -22,7 +22,8 @@ Migrating the Restaurant Management System to MongoDB involves several steps:
 ## Diagram
 The Entity-Relationship (ER) Diagram illustrates the structure of our database. This visual representation showcases the relationships between entities in our system. Use the diagram as a reference to understand the data model and the connections between key components in our application. 
 ### E-R Diagram
-<img alt="ER Diagram" src="C:\Users\albaa\Desktop\E-R-Diagram.jpg" width="700" height="550"/>
+
+<img alt="ER Diagram" height="550" src="Diagram/E-R-Diagram.jpg" width="700"/>
 
 ### Relational Schema
 The following is an overview of the relational schema for the MySQL database used in the Restaurant Management System
