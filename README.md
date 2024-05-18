@@ -19,6 +19,15 @@ Migrating the Restaurant Management System to MongoDB involves several steps:
 4. Configure Database Connections
 - Update the connection details for both MySQL and MongoDB in the configuration lines
 ```
+### Data Migration Details
+
+During the migration from MySQL to MongoDB, certain data types are converted to ensure compatibility with MongoDB's document-oriented structure:
+
+- **Decimal to Float**: Decimal values are converted to floats.
+- **Date to Datetime**: Date values are converted to datetime.
+- **Timedelta to Seconds**: Timedelta values are converted to total seconds.
+
+These conversions are handled by the `convert_value` function in the migration script.
 ## Diagram
 The Entity-Relationship (ER) Diagram illustrates the structure of our database. This visual representation showcases the relationships between entities in our system. Use the diagram as a reference to understand the data model and the connections between key components in our application. 
 ### E-R Diagram
