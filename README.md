@@ -30,3 +30,10 @@ The following is an overview of the relational schema for the MySQL database use
 ######
 <img alt="Relational Schema" height="550" src="Relational-Schema\Relational-Schema.jpg" width="700"/>
 
+## Data Model in MongoDB
+
+<img alt="img_1.png" height="550" src="img_1.png" width="700"/>
+
+#####
+
+<img alt="img_2.png" height="550" src="img_2.png" width="700"/>
