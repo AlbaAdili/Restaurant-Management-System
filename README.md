@@ -28,5 +28,5 @@ The Entity-Relationship (ER) Diagram illustrates the structure of our database. 
 ### Relational Schema
 The following is an overview of the relational schema for the MySQL database used in the Restaurant Management System
 ######
-<img alt="ER Diagram" height="550" src="C:\Users\albaa\Desktop\Relational Schema.jpg" width="700"/>
+<img alt="Relational Schema" height="550" src="Relational-Schema\Relational-Schema.jpg" width="700"/>
 
