@@ -41,7 +41,7 @@ The following is an overview of the relational schema for the MySQL database use
 
 ## Data Model in MongoDB
 
-<img alt="img_1.png" height="550" src="img_1.png" width="700"/>
+<img alt="img.png" height="550" src="img.png" width="700"/>
 
 #####
 
