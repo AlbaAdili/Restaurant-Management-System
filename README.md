@@ -61,3 +61,6 @@ The following is an overview of the relational schema for the MySQL database use
 Meet the contributors of the project:
 - [Alba Adili](https://github.com/AlbaAdili)
 - [Ermira Bexheti](https://github.com/ErmiraBexhetii)
+
+## Contributing
+Contributions to the Restaurant Management System Migration project are welcome! If you encounter any issues during the migration process or have suggestions for improvements, feel free to open an issue or submit a pull request on GitHub.
