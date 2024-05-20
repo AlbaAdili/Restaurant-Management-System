@@ -46,3 +46,9 @@ The following is an overview of the relational schema for the MySQL database use
 #####
 
 <img alt="img_2.png" height="550" src="img_2.png" width="700"/>
+
+### Notes
+- Ensure that both MySQL and MongoDB are running and accessible before running the migration script.
+- Review the data types and schema differences between MySQL and MongoDB to handle any necessary conversions or adjustments during migration.
+- Monitor the migration process for any errors or inconsistencies and address them accordingly.
+
