@@ -56,3 +56,8 @@ The following is an overview of the relational schema for the MySQL database use
 - Python: Scripting language used for writing the migration script.
 - pymongo: Python driver for MongoDB, used for interacting with MongoDB databases.
 - pymysql: Python driver for MySQL, used for accessing MySQL databases.
+
+## Collaborators
+Meet the contributors of the project:
+- [Alba Adili](https://github.com/AlbaAdili)
+- [Ermira Bexheti](https://github.com/ErmiraBexhetii)
