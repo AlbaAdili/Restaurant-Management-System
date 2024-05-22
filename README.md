@@ -43,9 +43,6 @@ The following is an overview of the relational schema for the MySQL database use
 
 <img alt="img.png" height="550" src="img.png" width="700"/>
 
-#####
-
-<img alt="img_2.png" height="550" src="img_2.png" width="700"/>
 
 ## Notes
 - Ensure that both MySQL and MongoDB are running and accessible before running the migration script.
