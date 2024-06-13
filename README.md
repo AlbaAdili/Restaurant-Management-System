@@ -19,6 +19,66 @@ Migrating the Restaurant Management System to MongoDB involves several steps:
 4. Configure Database Connections
 - Update the connection details for both MySQL and MongoDB in the configuration lines
 ```
+## Step-by-Step Guide
+
+#### 1. Set Up Relational Database (phpMyAdmin)
+Install Necessary Packages:
+Ensure you have XAMPP or any other LAMP/WAMP stack installed to use phpMyAdmin.
+
+Import Database:
+
+Open phpMyAdmin in your web browser (http://localhost/phpmyadmin).
+Create a new database named Hospital_Management_System.
+Import the Hospital_Management_System.sql file into this database. Ensure all tables and data are properly imported.
+#### 2. Set Up NoSQL Database (MongoDB)
+Install Docker Desktop:
+
+Download and install Docker Desktop from Docker’s official website.
+Install MongoDB Compass:
+
+Download and install MongoDB Compass from MongoDB’s official website.
+Create Docker Compose File:
+
+Create a new directory for your project.
+Inside this directory, create a file named docker-compose.yml with the following content:
+````
+version: '3.1'
+services:
+  mongo:
+    image: mongo:latest
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+
+  mongo-express:
+    image: mongo-express:latest
+    depends_on:
+      - mongo
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongo
+    ports:
+      - "8081:8081"
+
+volumes:
+  mongo-data:
+
+````
+#### 4. Launch MongoDB and Mongo Express:
+Open a terminal, navigate to the directory containing the docker-compose.yml file, and run the following command to start the services:
+sh
+````
+docker-compose up -d
+````
+#### 5. Connect to MongoDB:
+Open MongoDB Compass.
+Connect to the database using the connection string: mongodb://localhost:27017.
+Create a new database named Hospital_Management_System.
+
+#### 6. Run the Migration Script
+
+``python migrate.py
+``
 ### Data Migration Details
 
 During the migration from MySQL to MongoDB, certain data types are converted to ensure compatibility with MongoDB's document-oriented structure:
