@@ -33,13 +33,13 @@ Open phpMyAdmin in your web browser (http://localhost/phpmyadmin).
 Create a new database named Hospital_Management_System.
 Import the Hospital_Management_System.sql file into this database. Ensure all tables and data are properly imported.
 #### 2. Set Up NoSQL Database (MongoDB)
-Install Docker Desktop:
+- Install Docker Desktop:
 
-Download and install Docker Desktop from Docker’s official website.
+- Download and install Docker Desktop from Docker’s official website.
 Install MongoDB Compass:
 
-Download and install MongoDB Compass from MongoDB’s official website.
-Create Docker Compose File:
+- Download and install MongoDB Compass from MongoDB’s official website.
+- Create Docker Compose File:
 
 Create a new directory for your project.
 Inside this directory, create a file named docker-compose.yml with the following content:
@@ -66,18 +66,18 @@ volumes:
   mongo-data:
 
 ````
-#### 4. Launch MongoDB and Mongo Express:
+#### 3. Launch MongoDB and Mongo Express:
 Open a terminal, navigate to the directory containing the docker-compose.yml file, and run the following command to start the services:
 sh
 ````
 docker-compose up -d
 ````
-#### 5. Connect to MongoDB:
+#### 4. Connect to MongoDB:
 Open MongoDB Compass.
 Connect to the database using the connection string: mongodb://localhost:27017.
 Create a new database named Hospital_Management_System.
 
-#### 6. Run the Migration Script
+#### 5. Run the Migration Script
 
 ``python migrate.py
 ``
