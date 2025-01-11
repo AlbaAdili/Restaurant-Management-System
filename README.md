@@ -90,16 +90,6 @@ During the migration from MySQL to MongoDB, certain data types are converted to 
 - **Timedelta to Seconds**: Timedelta values are converted to total seconds.
 
 These conversions are handled by the `convert_value` function in the migration script.
-## Diagram
-The Entity-Relationship (ER) Diagram illustrates the structure of our database. This visual representation showcases the relationships between entities in our system. Use the diagram as a reference to understand the data model and the connections between key components in our application. 
-### E-R Diagram
-
-<img alt="ER Diagram" height="550" src="Diagram/E-R-Diagram.jpg" width="700"/>
-
-### Relational Schema
-The following is an overview of the relational schema for the MySQL database used in the Restaurant Management System
-######
-<img alt="Relational Schema" height="550" src="Relational-Schema\Relational-Schema.jpg" width="700"/>
 
 ## Data Model in MongoDB
 
@@ -115,11 +105,3 @@ The following is an overview of the relational schema for the MySQL database use
 - Python: Scripting language used for writing the migration script.
 - pymongo: Python driver for MongoDB, used for interacting with MongoDB databases.
 - pymysql: Python driver for MySQL, used for accessing MySQL databases.
-
-## Collaborators
-Meet the contributors of the project:
-- [Alba Adili](https://github.com/AlbaAdili)
-- [Ermira Bexheti](https://github.com/ErmiraBexhetii)
-
-## Contributing
-Contributions to the Restaurant Management System Migration project are welcome! If you encounter any issues during the migration process or have suggestions for improvements, feel free to open an issue or submit a pull request on GitHub.
