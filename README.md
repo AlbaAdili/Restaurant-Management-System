@@ -1,6 +1,4 @@
 # Restaurant Management System
-> [!NOTE] 
-> Relational to NoSQL Data Migration
 
 ## About the Project
 "Restaurant Management System" migration project aims to transition the existing MySQL-based system to a NoSQL database, specifically MongoDB. This migration process involves transferring data from MySQL tables to MongoDB collections, allowing for a more flexible and scalable data storage solution.
